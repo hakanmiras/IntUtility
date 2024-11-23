@@ -3,7 +3,7 @@
 
 
 extension Int {
-    func secondsToHoursMinutesSeconds() -> String {
+   public func secondsToHoursMinutesSeconds() -> String {
         let (h, m, s) = (self / 3600, (self % 3600) / 60, (self % 3600) % 60) // swiftlint:disable:this identifier_name
         
         let h_string = h < 10 ? "0\(h)" : "\(h)" // swiftlint:disable:this identifier_name
