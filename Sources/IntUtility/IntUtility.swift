@@ -4,7 +4,7 @@
 
 extension Int {
     public var biggestNum: Int {
-        return $0 > $1
+        return $0 + $1
     }
     
 }
